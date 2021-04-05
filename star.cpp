@@ -19,6 +19,11 @@ int main() {
 			a++;
 			cout << "\n";
 		}
+		while (a > 0) {
+			for (int i = 0; i < a; i++) cout << "*";
+			a--;
+			cout << "\n";
+		}
 		cout << endl;
 	}
 }
