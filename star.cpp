@@ -12,5 +12,13 @@ int main() {
 			cout << "\n";
 		}
 		cout << endl;
+
+		int a = 1;
+		while (a <= n) {
+			for (int i = 0; i < a; i++) cout << "*";
+			a++;
+			cout << "\n";
+		}
+		cout << endl;
 	}
 }
