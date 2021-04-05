@@ -5,7 +5,12 @@ int main() {
 	int n;
 	cin >> n;
 	if (n <= 10) {
-		for (int i = 0; i < n; i++)cout << "*";
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				cout << "*";
+			}
+			cout << "\n";
+		}
 		cout << endl;
 	}
 }
